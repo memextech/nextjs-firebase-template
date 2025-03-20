@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "fullstack-template",
     "source": "hosting",
     "ignore": [
       "firebase.json",
