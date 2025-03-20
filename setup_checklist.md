@@ -9,7 +9,7 @@
 - [ ] Connect to GitHub - Link local and remote repositories
 
 ## Firebase Setup
-- [x] Create Firebase project - Set up a new project in Firebase Console
+- [x] Create Firebase project - Set up a new project in Firebase Console (FullstackTemplate)
 - [x] Enable Authentication - Turn on user authentication service
 - [x] Add web app - Register your application with Firebase
 - [x] Copy config values - Get Firebase credentials for your app
