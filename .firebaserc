@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "default": "memex-desktop"
+  },
+  "targets": {
+    "memex-desktop": {
+      "hosting": {
+        "memex-admin": [
+          "memex-admin"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
