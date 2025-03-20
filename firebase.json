@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "memex-admin",
     "source": "hosting",
     "ignore": [
       "firebase.json",

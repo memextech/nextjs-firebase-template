@@ -1,12 +1,12 @@
 {
   "projects": {
-    "default": "memex-desktop"
+    "default": "your-project-id"
   },
   "targets": {
-    "memex-desktop": {
+    "your-project-id": {
       "hosting": {
-        "memex-admin": [
-          "memex-admin"
+        "firebase-nextjs-setup": [
+          "firebase-nextjs-setup"
         ]
       }
     }
