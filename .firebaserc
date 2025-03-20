@@ -1,12 +1,12 @@
 {
   "projects": {
-    "default": "fullstacktemplate-a3e1c"
+    "default": "your-project-id"
   },
   "targets": {
-    "fullstacktemplate-a3e1c": {
+    "your-project-id": {
       "hosting": {
-        "fullstack-template": [
-          "fullstack-template"
+        "your-site-name": [
+          "your-site-name"
         ]
       }
     }

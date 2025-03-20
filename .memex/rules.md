@@ -1,24 +1,23 @@
-# Firebase Next.js Setup Project
+# Firebase Next.js Template
 
 ## Overview
-Next.js application configured for Firebase Hosting, based on the [memex-admin](https://github.com/atlasfutures/memex-admin) repository.
-
-## Project Structure
-- `/hosting` - Next.js application
-  - `/app` - Next.js app directory with components, context, and utilities
-  - `firebase.ts` - Firebase configuration
-- `.firebaserc` - Firebase project configuration
-- `firebase.json` - Firebase services configuration
-- `setup_checklist.md` - Setup status and remaining tasks
+This template provides a starting point for building Next.js applications with Firebase Authentication and Hosting.
 
 ## Key Files
-- `hosting/.env.local` - Environment variables (create from .env.local.sample)
 - `hosting/app/firebase.ts` - Firebase initialization
-- `hosting/app/context/AuthContext.tsx` - Authentication context
-- `firebase.json` - Hosting and emulator configuration
+- `hosting/app/components/AdminProtected.tsx` - Auth protection component
+- `hosting/app/context/AuthContext.tsx` - Authentication context provider
+- `.firebaserc` - Firebase project configuration (update with your project ID)
+- `firebase.json` - Firebase services configuration
+- `setup_checklist.md` - Step-by-step setup instructions
 
-## Setup Guide
-Follow the [Firebase Hosting deployment guide](https://firebase.google.com/docs/hosting/test-preview-deploy)
+## Getting Started
+1. Follow the steps in `setup_checklist.md`
+2. Update Firebase configuration with your project details
+3. Run locally with `npm run dev` or `firebase serve`
 
-## Current Status
-Refer to `setup_checklist.md` for the current setup status and remaining tasks to complete the project configuration.
+## Authentication
+The template includes Google Authentication. The AdminProtected component is configured to bypass admin checks in development mode.
+
+## Deployment
+Deploy to Firebase Hosting using preview channels for testing and the main channel for production.
