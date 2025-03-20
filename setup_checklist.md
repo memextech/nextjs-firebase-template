@@ -16,7 +16,7 @@
 
 ## Local Environment Setup
 - [x] Install Firebase CLI - `npm install -g firebase-tools &`
-- [x] Login to Firebase - `firebase login &`
+- [ ] Login to Firebase - `firebase login &` (needs manual reauth)
 - [x] Enable web frameworks - `firebase experiments:enable webframeworks &`
 - [x] Update .firebaserc - Configure project ID in local files
 - [x] Create .env.local - Set up environment variables file
@@ -28,17 +28,17 @@
 - [x] Verify local app - Check app runs on localhost:3001
 
 ## Firebase Emulators (Optional)
-- [x] Start emulators - `firebase emulators:start &`
-- [x] Test with emulators - Verify app works with local Firebase services
+- [ ] Start emulators - `firebase emulators:start &` (requires Java)
+- [ ] Test with emulators - Verify app works with local Firebase services
 
 ## Authentication Setup
 - [x] Configure auth methods - Set up login providers
-- [ ] Create test user - Add user account for testing
+- [x] Create test user - Add user account for testing
 - [ ] Add admin claims - Set up permissions for admin features
 
 ## Deployment
-- [ ] Build application - `cd hosting && npm run build &`
-- [ ] Deploy preview - `firebase hosting:channel:deploy preview-1 &`
+- [x] Build application - `cd hosting && npm run build &`
+- [ ] Deploy preview - `firebase hosting:channel:deploy preview-1 &` (after reauth)
 - [ ] Test preview - Verify app on preview URL
 - [ ] Deploy production - `firebase deploy --only hosting &`
 - [ ] Verify production - Check live application

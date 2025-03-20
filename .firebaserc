@@ -1,9 +1,9 @@
 {
   "projects": {
-    "default": "your-project-id"
+    "default": "firebase-nextjs-setup"
   },
   "targets": {
-    "your-project-id": {
+    "firebase-nextjs-setup": {
       "hosting": {
         "firebase-nextjs-setup": [
           "firebase-nextjs-setup"
