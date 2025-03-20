@@ -2,6 +2,29 @@
 
 This checklist outlines all the necessary steps to set up and deploy the Firebase Next.js project.
 
+## Git and GitHub Setup
+
+- [ ] Install Git if not already installed: [Git Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [ ] Configure Git with your name and email:
+  ```
+  git config --global user.name "Your Name"
+  git config --global user.email "your.email@example.com"
+  ```
+- [ ] Create a GitHub account if you don't have one: [GitHub Signup](https://github.com/join)
+- [ ] Initialize Git repository (if not already initialized):
+  ```
+  git init
+  git add .
+  git commit -m "Initial commit"
+  ```
+- [ ] Create a new GitHub repository: [Create a repo](https://github.com/new)
+- [ ] Connect local repository to GitHub:
+  ```
+  git remote add origin https://github.com/yourusername/your-repo-name.git
+  git branch -M main
+  git push -u origin main
+  ```
+
 ## Firebase Setup
 
 - [ ] Create a new Firebase project in the [Firebase Console](https://console.firebase.google.com/)
