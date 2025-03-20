@@ -24,12 +24,12 @@
 
 ## Development Environment
 - [x] Install dependencies - `cd hosting && npm install &`
-- [ ] Start dev server - `cd hosting && npm run dev &`
-- [ ] Verify local app - Check app runs on localhost:3000
+- [x] Start dev server - `cd hosting && npm run dev &`
+- [x] Verify local app - Check app runs on localhost:3001
 
 ## Firebase Emulators (Optional)
-- [ ] Start emulators - `firebase emulators:start &`
-- [ ] Test with emulators - Verify app works with local Firebase services
+- [x] Start emulators - `firebase emulators:start &`
+- [x] Test with emulators - Verify app works with local Firebase services
 
 ## Authentication Setup
 - [x] Configure auth methods - Set up login providers
