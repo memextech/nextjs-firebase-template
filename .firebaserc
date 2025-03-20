@@ -1,9 +1,9 @@
 {
   "projects": {
-    "default": "fullstacktemplate"
+    "default": "fullstacktemplate-a3e1c"
   },
   "targets": {
-    "fullstacktemplate": {
+    "fullstacktemplate-a3e1c": {
       "hosting": {
         "fullstack-template": [
           "fullstack-template"
