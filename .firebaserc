@@ -1,9 +1,9 @@
 {
   "projects": {
-    "default": "FullstackTemplate"
+    "default": "fullstacktemplate"
   },
   "targets": {
-    "FullstackTemplate": {
+    "fullstacktemplate": {
       "hosting": {
         "fullstack-template": [
           "fullstack-template"
