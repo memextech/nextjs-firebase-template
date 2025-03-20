@@ -9,7 +9,7 @@
 - [ ] Connect to GitHub - Link local and remote repositories
 
 ## Firebase Setup
-- [x] Create Firebase project - Set up a new project in Firebase Console (FullstackTemplate)
+- [x] Create Firebase project - Set up a new project in Firebase Console (fullstacktemplate)
 - [x] Enable Authentication - Turn on user authentication service
 - [x] Add web app - Register your application with Firebase
 - [x] Copy config values - Get Firebase credentials for your app
@@ -18,7 +18,7 @@
 - [x] Install Firebase CLI - `npm install -g firebase-tools &`
 - [ ] Login to Firebase - `firebase login &` (needs manual reauth)
 - [x] Enable web frameworks - `firebase experiments:enable webframeworks &`
-- [x] Update .firebaserc - Configure project ID in local files
+- [x] Update .firebaserc - Configure project ID in local files (fixed to lowercase)
 - [x] Create .env.local - Set up environment variables file
 - [x] Add Firebase config - Insert your project credentials
 
