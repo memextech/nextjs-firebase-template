@@ -1,12 +1,12 @@
 {
   "projects": {
-    "default": "firebase-nextjs-setup"
+    "default": "FullstackTemplate"
   },
   "targets": {
-    "firebase-nextjs-setup": {
+    "FullstackTemplate": {
       "hosting": {
-        "firebase-nextjs-setup": [
-          "firebase-nextjs-setup"
+        "fullstack-template": [
+          "fullstack-template"
         ]
       }
     }
