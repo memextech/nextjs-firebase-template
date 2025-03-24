@@ -1,4 +1,4 @@
-card_image: https://raw.githubusercontent.com/memextech/nextjs-firebase-template/main/hosting/app/favicon.ico
+card_image: https://raw.githubusercontent.com/memextech/nextjs-firebase-template/main/public/images/card-image-viewport.png
 created_at: 2025-03-20 16:10:32.234000
 creator_id: your name
 deployment:
@@ -19,7 +19,7 @@ git:
   branch: main
   remote: origin
   url: https://github.com/memextech/nextjs-firebase-template
-hero_image: https://raw.githubusercontent.com/memextech/nextjs-firebase-template/main/hosting/app/favicon.ico
+hero_image: https://raw.githubusercontent.com/memextech/nextjs-firebase-template/main/public/images/hero-image.png
 icon: Rocket
 is_published: true
 pills:
