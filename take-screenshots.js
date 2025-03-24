@@ -11,22 +11,23 @@ const { chromium } = require('playwright');
   await heroPage.screenshot({ path: 'public/images/hero-image.png', fullPage: false });
   console.log('Hero image captured');
   
-  // For card image - more focused on the header/logo
+  // For card image - capture a square portion of the landing page that includes more UI elements
   const cardPage = await browser.newPage();
-  await cardPage.setViewportSize({ width: 600, height: 600 });
+  await cardPage.setViewportSize({ width: 800, height: 800 });
   await cardPage.goto('https://fullstacktemplate-a3e1c.web.app');
   await cardPage.waitForLoadState('networkidle');
-  // Focus on the header area
-  const headerElement = await cardPage.$('header');
-  if (headerElement) {
-    await headerElement.screenshot({ path: 'public/images/card-image.png' });
-    console.log('Card image captured');
-  } else {
-    console.log('Header element not found');
-    // Take a screenshot of the top portion as fallback
-    await cardPage.screenshot({ path: 'public/images/card-image.png', clip: { x: 0, y: 0, width: 400, height: 400 } });
-    console.log('Card image captured (fallback)');
-  }
+  
+  // Take a screenshot of a square portion of the page that includes the hero section
+  await cardPage.screenshot({ 
+    path: 'public/images/card-image.png', 
+    clip: { 
+      x: 200,  // Start from the center-left
+      y: 100,  // Start from the top, but include some of the header
+      width: 500, 
+      height: 500 
+    } 
+  });
+  console.log('Card image captured');
   
   await browser.close();
   console.log('Screenshots taken successfully!');
