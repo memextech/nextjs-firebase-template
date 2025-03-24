@@ -16,7 +16,7 @@ features:
 getting_started_screen: false
 getting_started_screen_index: 0
 git:
-  branch: template
+  branch: main
   remote: origin
   url: https://github.com/memextech/nextjs-firebase-template
 hero_image: https://raw.githubusercontent.com/memextech/nextjs-firebase-template/main/public/images/hero-image.png
