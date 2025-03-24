@@ -21,3 +21,26 @@ The template includes Google Authentication. The AdminProtected component is con
 
 ## Deployment
 Deploy to Firebase Hosting using preview channels for testing and the main channel for production.
+
+## Firebase CLI Authentication in Non-Interactive Environments
+
+Firebase CLI requires an interactive environment for authentication. When working in non-interactive environments (like this one), use this workaround:
+
+### macOS
+```
+osascript -e 'tell application "Terminal" to do script "firebase login --reauth"'
+```
+
+### Windows
+```
+start powershell -NoExit -Command "firebase login --reauth"
+```
+
+### Linux (Ubuntu)
+```
+gnome-terminal -- bash -c "firebase login --reauth; exec bash"
+```
+
+After authentication completes in the external terminal, you can continue using Firebase CLI commands in the original environment. The authentication token persists across sessions, allowing subsequent Firebase commands to work normally.
+
+This approach works because Firebase stores authentication credentials in your user profile, which remain accessible to all terminal instances after the initial authentication.
