@@ -27,7 +27,7 @@ pills:
   label: Setup Firebase
   prompt: Help me set up Firebase with Next.js
 project_id: WYR0vVZ1D0zJKh9kxJc3
-published_at: 2025-03-20 16:17:03.776000
+published_at: 2025-03-20 16:11:09.873000
 requirements:
 - description: Firebase account and project
   type: system
@@ -50,4 +50,4 @@ tools:
   role: Frontend Framework
   type: library
   version: latest
-updated_at: 2025-03-20 16:17:03.776000
+updated_at: 2025-03-20 16:11:09.873000
