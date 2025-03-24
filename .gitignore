@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/hosting/node_modules
 /.pnp
 .pnp.*
 .yarn/*
@@ -9,16 +10,21 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+.yarn/install-state.gz
 
 # testing
 /coverage
+/hosting/coverage
 
 # next.js
 /.next/
+/hosting/.next/
 /out/
+/hosting/out/
 
 # production
 /build
+/hosting/build
 
 # misc
 .DS_Store
@@ -32,8 +38,11 @@ yarn-error.log*
 firebase-debug.log*
 ui-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# env files
+.env
+.env.*
+!.env.sample
+!.env.*.sample
 
 # vercel
 .vercel
@@ -45,3 +54,5 @@ next-env.d.ts
 # firebase
 .firebase
 firebase-debug.log
+data/*
+!data/.gitkeep
